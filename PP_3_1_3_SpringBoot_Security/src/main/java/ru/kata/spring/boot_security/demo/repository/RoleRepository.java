@@ -8,7 +8,6 @@ import ru.kata.spring.boot_security.demo.model.Role;
 import java.util.List;
 
 @Repository
-@EnableJpaRepositories
 public interface RoleRepository extends JpaRepository<Role, Long> {
     List<Role> findAll();
 }

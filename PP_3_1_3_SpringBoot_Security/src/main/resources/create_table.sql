@@ -69,7 +69,7 @@ VALUES ('Янa', 'Гулак', 33, 'gulak@mail.ru', 'yana',
         '{bcrypt}$2a$10$uoFl.ZsYRGbd1btsZpTMUOsqfOI4qpQj67T9KiVntqzHbyVjnVFUq}');
 
 
-INSERT INTO usersroles.users_roles (user_id, role_id)
+INSERT INTO users_roles (user_id, role_id)
 VALUES (1, 2);
     INSERT
 INTO users (name, last_name, age, email, username, password)
@@ -83,7 +83,7 @@ INSERT INTO users (name, last_name, age, email, username, password)
 VALUES ('Петр', 'Якутчик', 36, 'yakutchik@mail.ru', 'petr',
         '{bcrypt}$2a$10$Tc6507HMuXEyweeRiwq8Pug1DUtBcQT8/BryHzIvlsqBEj3jXNgim');
 
-INSERT INTO usersroles.users (name, last_name, age, email, username, password)
+INSERT INTO users (name, last_name, age, email, username, password)
 VALUES ('Максим', 'Мамонтов', 22, 'mamontov@mail.ru', 'maksim',
         '$2a$10$Suk22vdBTW7TVCZkzZcvgOD66zceRBPgddGsFK9FcBBj.y0yG0zty');
 
